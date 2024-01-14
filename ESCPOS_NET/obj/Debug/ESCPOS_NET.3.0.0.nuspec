@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ESCPOS_NET</id>
+    <version>3.0.0</version>
+    <authors>Luke Paireepinart</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/lukevp/ESC-POS-.NET</projectUrl>
+    <description>.NET Standard 2.0 Implementation of ESC/POS command generation and integration with thermal printers.
+			Allows creating receipts with all common functionality supported.</description>
+    <releaseNotes>- Completely rebuilt the network printer code</releaseNotes>
+    <copyright>Copyright 2022 CandL Development, LLC.</copyright>
+    <tags>epson thermal receipt printing printer usb wifi bluetooth serial esc pos escpos escp esc/pos esc/pos.net esc_pos esc_pos_net esc_pos_usb esc_pos_usb_net</tags>
+    <repository type="git" url="https://github.com/lukevp/ESC-POS-.NET" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Extensions.Logging" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="SixLabors.ImageSharp" version="2.1.3" exclude="Build,Analyzers" />
+        <dependency id="SuperSimpleTcp" version="2.4.0" exclude="Build,Analyzers" />
+        <dependency id="System.IO.Ports" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="6.0.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\AMIT\source\repos\posprinterv2\ESCPOS_NET\bin\Debug\netstandard2.0\ESCPOS_NET.dll" target="lib\netstandard2.0\ESCPOS_NET.dll" />
+  </files>
+</package>
