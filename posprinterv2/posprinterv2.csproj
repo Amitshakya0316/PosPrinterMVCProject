@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ESCPOS_NET\ESCPOS_NET.csproj" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+
   </ItemGroup>
 
 </Project>

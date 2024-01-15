@@ -17,7 +17,7 @@ using System.Reflection;
     "n with thermal printers.\n\t\t\tAllows creating receipts with all common functionali" +
     "ty supported.\n\t\t")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.0.0+480c6a1602332beb57f36cb6ef6b9cec31e2759f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ESCPOS_NET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ESCPOS_NET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.1.0.0")]

@@ -12,7 +12,7 @@
     <releaseNotes>- Completely rebuilt the network printer code</releaseNotes>
     <copyright>Copyright 2022 CandL Development, LLC.</copyright>
     <tags>epson thermal receipt printing printer usb wifi bluetooth serial esc pos escpos escp esc/pos esc/pos.net esc_pos esc_pos_net esc_pos_usb esc_pos_usb_net</tags>
-    <repository type="git" url="https://github.com/lukevp/ESC-POS-.NET" />
+    <repository type="git" url="https://github.com/lukevp/ESC-POS-.NET" commit="480c6a1602332beb57f36cb6ef6b9cec31e2759f" />
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.Extensions.Logging" version="6.0.0" exclude="Build,Analyzers" />

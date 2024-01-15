@@ -19,3 +19,4 @@ C:\Users\AMIT\source\repos\posprinterv2\ESCPOS_NET\obj\Debug\netstandard2.0\ESCP
 C:\Users\AMIT\source\repos\posprinterv2\ESCPOS_NET\obj\Debug\netstandard2.0\ESCPOS_NET.csproj.CoreCompileInputs.cache
 C:\Users\AMIT\source\repos\posprinterv2\ESCPOS_NET\obj\Debug\netstandard2.0\ESCPOS_NET.dll
 C:\Users\AMIT\source\repos\posprinterv2\ESCPOS_NET\obj\Debug\netstandard2.0\ESCPOS_NET.pdb
+C:\Users\AMIT\source\repos\posprinterv2\ESCPOS_NET\obj\Debug\netstandard2.0\ESCPOS_NET.sourcelink.json

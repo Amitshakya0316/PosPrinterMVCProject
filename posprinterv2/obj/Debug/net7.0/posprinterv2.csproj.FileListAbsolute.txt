@@ -42,3 +42,5 @@ C:\Users\AMIT\source\repos\posprinterv2\posprinterv2\bin\Debug\net7.0\runtimes\w
 C:\Users\AMIT\source\repos\posprinterv2\posprinterv2\bin\Debug\net7.0\ESCPOS_NET.dll
 C:\Users\AMIT\source\repos\posprinterv2\posprinterv2\bin\Debug\net7.0\ESCPOS_NET.pdb
 C:\Users\AMIT\source\repos\posprinterv2\posprinterv2\obj\Debug\net7.0\posprinterv2.csproj.CopyComplete
+C:\Users\AMIT\source\repos\posprinterv2\posprinterv2\obj\Debug\net7.0\posprinterv2.sourcelink.json
+c:\Users\AMIT\source\repos\posprinterv2\posprinterv2\bin\Debug\net7.0\Newtonsoft.Json.dll

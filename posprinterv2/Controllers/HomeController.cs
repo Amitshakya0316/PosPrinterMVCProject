@@ -3,6 +3,8 @@ using ESCPOS_NET.Emitters;
 using Microsoft.AspNetCore.Mvc;
 using posprinterv2.Models;
 using System.Diagnostics;
+using Newtonsoft.Json;
+
 
 namespace POSWebApp.Controllers
 {
@@ -15,6 +17,8 @@ namespace POSWebApp.Controllers
 
         private static string ip = "192.168.1.226";
         private static string networkPort = "9100";
+        private static PrinterStatusEventArgs status = new PrinterStatusEventArgs();
+
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -29,19 +33,39 @@ namespace POSWebApp.Controllers
         {
             printer = new NetworkPrinter(settings: new NetworkPrinterSettings() { ConnectionString = $"{ip}:{networkPort}" });
             e = new EPSON();
+            Setup(true);
+
             printer.Write(Tests.SingleLinePrinting(e));
 
-            return Ok();
-        }
-        public IActionResult Privacy()
-        {
-            return View();
-        }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+            return Ok(status.IsPrinterOnline);
+        }
+        private static void StatusChanged(object sender, EventArgs ps)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            status = (PrinterStatusEventArgs)ps;
+            if (status == null) { Console.WriteLine("Status was null - unable to read status from printer."); return; }
+            Console.WriteLine($"Printer Online Status: {status.IsPrinterOnline}");
+            Console.WriteLine(JsonConvert.SerializeObject(status));
+        }
+        private static bool _hasEnabledStatusMonitoring = false;
+
+        private static void Setup(bool enableStatusBackMonitoring)
+        {
+            if (printer != null)
+            {
+                // Only register status monitoring once.
+                if (!_hasEnabledStatusMonitoring)
+                {
+                    printer.StatusChanged += StatusChanged;
+                    _hasEnabledStatusMonitoring = true;
+                }
+                printer?.Write(e.Initialize());
+                printer?.Write(e.Enable());
+                if (enableStatusBackMonitoring)
+                {
+                    printer.Write(e.EnableAutomaticStatusBack());
+                }
+            }
         }
     }
 }

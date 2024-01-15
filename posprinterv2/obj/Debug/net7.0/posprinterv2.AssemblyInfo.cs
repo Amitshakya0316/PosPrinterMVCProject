@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("posprinterv2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+480c6a1602332beb57f36cb6ef6b9cec31e2759f")]
 [assembly: System.Reflection.AssemblyProductAttribute("posprinterv2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("posprinterv2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

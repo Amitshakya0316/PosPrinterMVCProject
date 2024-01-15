@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jMW2bif6JvYmjxqTXIXtEaXM0kuDjWochRHfCjGSyGvRadCXtz4/H2jT8dhELyHg7eYnYtPDtbCVHImutWiAHA==",
+  "dgSpecHash": "U9nX/zJj/uhU1v3o5xsJJ2fY64FJg/PQsPt7xYjwxGfQqBl+X45aATSKdcxJBw95928nfz9B3OKnHPsojj9ZBw==",
   "success": true,
   "projectFilePath": "C:\\Users\\AMIT\\source\\repos\\posprinterv2\\posprinterv2\\posprinterv2.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\AMIT\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\AMIT\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\AMIT\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\AMIT\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\AMIT\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\AMIT\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\AMIT\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
@@ -25,6 +26,7 @@
     "C:\\Users\\AMIT\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512",
     "C:\\Users\\AMIT\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\AMIT\\.nuget\\packages\\system.text.json\\6.0.4\\system.text.json.6.0.4.nupkg.sha512",
+    "C:\\Users\\AMIT\\.nuget\\packages\\escpos_net\\3.0.0\\escpos_net.3.0.0.nupkg.sha512",
     "C:\\Users\\AMIT\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
     "C:\\Users\\AMIT\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
     "C:\\Users\\AMIT\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
